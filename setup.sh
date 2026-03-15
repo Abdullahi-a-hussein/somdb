@@ -2,6 +2,8 @@
 
 src_files=(
 "main.c"
+"value.c"
+"db.c"
 "repl.c"
 "parser.c"
 "lexer.c"
@@ -15,7 +17,8 @@ src_files=(
 )
 
 include_files=(
-"somdb.h"
+"db.h"
+"value.h"
 "parser.h"
 "lexer.h"
 "engine.h"
